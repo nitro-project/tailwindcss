@@ -1,4 +1,4 @@
-# tailwindcss version 2.0.3 + forms plugins
+# tailwindcss forms plugins (Fixed @import problem)
 
 ## Clone 
 ```
@@ -18,4 +18,8 @@ npm install
 ### Make css style
 ```
 npm run make
+```
+
+```
+ npm run release
 ```
