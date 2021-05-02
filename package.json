@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "make": "cross-env NODE_ENV=development postcss src/main.css -o out/style.css",
-    "release": "cross-env NODE_ENV=production postcss src/main.css -o out/style.css"
+    "make": " postcss src/main.css -o out/style.css",
+    "release": "NODE_ENV=production postcss src/main.css -o out/style.css"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.2.1",
@@ -10,8 +10,5 @@
     "postcss-cli": "^8.3.0",
     "postcss-import": "^14.0.0",
     "tailwindcss": "^2.0.3"
-  },
-  "devDependencies": {
-    "cross-env": "^7.0.3"
   }
 }
